@@ -20,9 +20,13 @@ import Skills from "./components/home/Skills";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
-import Experience from "./components/home/Experience";
-
+import Statement from "./components/home/Statement.jsx";
+// import Experience from "./components/home/Experience";
+import Background from "./components/home/Background.jsx";
+import SignUp from "./components/home/SignUp.jsx";
+import Caseofathlete from "./components/home/Caseofathlete.jsx"
+import WhyNeeded from "./components/home/WhyNeeded.jsx";
+import SignupModel from "./components/home/SignupModel.jsx";
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
@@ -33,6 +37,8 @@ const Home = React.forwardRef((props, ref) => {
         icons={mainBody.icons}
         ref={ref}
       />
+      <Statement></Statement>
+    
       {about.show && (
         <AboutMe
           heading={about.heading}
@@ -42,39 +48,11 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
-      {repos.show && (
-        <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
-        />
-      )}
-      {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
-      
+      <Background></Background>
+      <SignUp></SignUp>
     </>
   );
 });
-
 const App = () => {
   const titleRef = React.useRef();
 
@@ -83,6 +61,15 @@ const App = () => {
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
+      </Routes>
+      <Routes>
+        <Route path="/caseofathletes"  element={<Caseofathlete ref={titleRef} />} />
+      </Routes>
+      <Routes>
+        <Route path="/whyNeeded"  element={<WhyNeeded ref={titleRef} />} />
+      </Routes>
+      <Routes>
+        <Route path="/signupModel"  element={<SignupModel ref={titleRef} />} />
       </Routes>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}

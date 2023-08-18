@@ -48,8 +48,14 @@ code {
   background-color: rgba(255, 255, 255, 0);
   transition: background-color 0.2s;
 }
-.navbar-white {
-  background-color: rgba(234, 236, 239, 0.81);
+.navbar-color {
+  .navbar-brand{
+    color: white; 
+  }
+  .nav-link{
+    color: white; 
+  }
+  background-color: rgba(42,49,62,.9);
   transition: background-color 0.2s;
 }
 .brand {
@@ -128,4 +134,28 @@ code {
   & > * {
     animation: progress 1.5s ease-in-out forwards;
   }
+}
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #a0a0a0;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: opacity 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  width: 45px;
+  height: 45px;
+}
+
+.scroll-to-top-button.visible {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+.scroll-to-top-button:hover {
+  background-color: #ccc; /* 修改为你想要的悬浮时的背景颜色 */
+  color: #ffffff; /* 修改为你想要的悬浮时的文字颜色 */
 }

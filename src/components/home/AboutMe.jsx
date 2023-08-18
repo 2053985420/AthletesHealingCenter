@@ -34,9 +34,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
 
   return (
-    <Jumbotron id="aboutme" className="m-0">
+    <Jumbotron  className="m-0">
       <div className="container row">
-        <div className="col-5 d-none d-lg-block align-self-center">
+        {/* <div className="col-5 d-none d-lg-block align-self-center">
           {showPic && (
             <img
               className="border border-secondary rounded-circle"
@@ -45,12 +45,21 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               width={imgSize}
               height={imgSize}
             />
-          )}
-        </div>
-        <div className={`col-lg-${showPic ? "7" : "12"}`}>
+          )}s
+        </div> */}
+        <div className={`col-lg-${false ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
-          {resume && (
+          <p className="lead" style={{ textAlign: 'justify'}}>{message}</p>
+          <div style={{display:'flex',justifyContent: 'space-around',marginBottom:'50px'}}>
+          <img style={{width:'500px',borderRadius:'20px'}} src={require("../../assets/newImg/图片1.png")}></img>
+          <img style={{width:'500px',borderRadius:'20px'}} src={require("../../assets/newImg/图片2.png")}></img>
+          </div>
+          <div style={{display:'flex',justifyContent: 'space-around'}}>
+          <img style={{width:'500px',borderRadius:'20px'}} src={require("../../assets/newImg/图片3.png")}></img>
+          <img style={{width:'500px',borderRadius:'20px'}} src={require("../../assets/newImg/图片4.png")}></img>
+          </div>
+          {/* 简历按钮 */}
+          {/* {resume && (
             <p className="lead text-center">
               <a
                 className="btn btn-outline-dark btn-lg"
@@ -63,7 +72,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 Resume
               </a>
             </p>
-          )}
+          )} */}
         </div>
       </div>
     </Jumbotron>

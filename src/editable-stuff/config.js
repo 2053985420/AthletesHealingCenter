@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Athletes Healing Center",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "",
+  message: "\"I want to help others in the same way that I've been helped. If I can use my experience to help even one person overcome their struggles, then it's all worth it.\" - Wayne Gretzky (Hockey)",
   icons: [
     {
       image: "fa-github",
@@ -50,11 +50,11 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: "A little bit about myself",
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "Our mission is for athletes to achieve mental wellness and thrive in their sports by providing compassionate support and resources. Mental health is just as important as physical health, and by accepting their well-being and adjusting their mindset, they can overcome mental health challenges and reach their full potential. We aim to create a culture of openness and acceptance around mental health in sports, trying to motivate athletes to prioritize their mental health and achieve their full potential.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
