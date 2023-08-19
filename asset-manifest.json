@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.29b14b15.css",
+    "main.js": "/home/static/js/main.87c7a57e.js",
+    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
+    "static/media/图片6.png": "/home/static/media/图片6.4fcb952b2c1812e66d21.png",
+    "static/media/图片2.png": "/home/static/media/图片2.b6d28fa955f06109d903.png",
+    "static/media/图片4.png": "/home/static/media/图片4.5840f53fe60b0c7c93f2.png",
+    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "static/media/图片3.png": "/home/static/media/图片3.75f2cef10aa22ad40614.png",
+    "static/media/图片1.png": "/home/static/media/图片1.008a0b336220d0d6253e.png",
+    "static/media/图片5.png": "/home/static/media/图片5.18c8a507a3c94d81cbd2.png",
+    "static/media/xiaoxiang.jpg": "/home/static/media/xiaoxiang.1ee5bb243faa2d59a2b5.jpg",
+    "index.html": "/home/index.html",
+    "main.29b14b15.css.map": "/home/static/css/main.29b14b15.css.map",
+    "main.87c7a57e.js.map": "/home/static/js/main.87c7a57e.js.map",
+    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29b14b15.css",
+    "static/js/main.87c7a57e.js"
+  ]
+}
