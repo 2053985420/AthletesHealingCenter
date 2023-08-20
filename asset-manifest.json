@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home/static/css/main.29b14b15.css",
-    "main.js": "/home/static/js/main.87c7a57e.js",
+    "main.js": "/home/static/js/main.249a8777.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
     "static/media/图片6.png": "/home/static/media/图片6.4fcb952b2c1812e66d21.png",
     "static/media/图片2.png": "/home/static/media/图片2.b6d28fa955f06109d903.png",
@@ -13,11 +13,11 @@
     "static/media/xiaoxiang.jpg": "/home/static/media/xiaoxiang.1ee5bb243faa2d59a2b5.jpg",
     "index.html": "/home/index.html",
     "main.29b14b15.css.map": "/home/static/css/main.29b14b15.css.map",
-    "main.87c7a57e.js.map": "/home/static/js/main.87c7a57e.js.map",
+    "main.249a8777.js.map": "/home/static/js/main.249a8777.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29b14b15.css",
-    "static/js/main.87c7a57e.js"
+    "static/js/main.249a8777.js"
   ]
 }
