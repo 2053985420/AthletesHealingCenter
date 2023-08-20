@@ -37,7 +37,6 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     marginTop:'20px'
   }
 
-
   return (
     <Jumbotron  className="m-0">
       <div className="container row">
@@ -50,7 +49,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               width={imgSize}
               height={imgSize}
             />
-          )}s
+          )}
         </div>
         <div className={`col-lg-${true ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>

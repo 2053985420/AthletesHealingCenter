@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes ,Navigate, HashRouter,BrowserRouter } from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -57,19 +57,14 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <BrowserRouter>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
-        <Route path="/" exact element={<Home ref={titleRef} />} />
-      </Routes>
-      <Routes>
-        <Route path="/caseofathletes"  element={<Caseofathlete ref={titleRef} />} />
-      </Routes>
-      <Routes>
-        <Route path="/whyNeeded"  element={<WhyNeeded ref={titleRef} />} />
-      </Routes>
-      <Routes>
-        <Route path="/signupModel"  element={<SignupModel ref={titleRef} />} />
+        <Route path={process.env.PUBLIC_URL + "/"} exact element={<Home ref={titleRef} />} />
+        <Route path={process.env.PUBLIC_URL + "/caseofathletes"}  element={<Caseofathlete ref={titleRef} />} />
+        <Route path={process.env.PUBLIC_URL + "/whyNeeded"}  element={<WhyNeeded ref={titleRef} />} />
+        <Route path={process.env.PUBLIC_URL + "/signupModel"} element={<SignupModel ref={titleRef} />} />
+        {/* <Route path="*" element={<Navigate to={process.env.PUBLIC_URL + "/"} replace />} /> 路径未匹配时重定向到首页 */}
       </Routes>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
