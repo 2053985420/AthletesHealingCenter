@@ -57,13 +57,13 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
-        <Route path={process.env.PUBLIC_URL + "/"} exact element={<Home ref={titleRef} />} />
-        <Route path={process.env.PUBLIC_URL + "/caseofathletes"}  element={<Caseofathlete ref={titleRef} />} />
-        <Route path={process.env.PUBLIC_URL + "/whyNeeded"}  element={<WhyNeeded ref={titleRef} />} />
-        <Route path={process.env.PUBLIC_URL + "/signupModel"} element={<SignupModel ref={titleRef} />} />
+        <Route path="/" exact element={<Home ref={titleRef} />} />
+        <Route path="/caseofathletes"  element={<Caseofathlete ref={titleRef} />} />
+        <Route path="/whyNeeded"  element={<WhyNeeded ref={titleRef} />} />
+        <Route path="/signupModel" element={<SignupModel ref={titleRef} />} />
         {/* <Route path="*" element={<Navigate to={process.env.PUBLIC_URL + "/"} replace />} /> 路径未匹配时重定向到首页 */}
       </Routes>
       {/* {false && <Route path="/blog" exact component={Blog} />}
