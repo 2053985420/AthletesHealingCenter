@@ -2,7 +2,8 @@ import React from "react";
 
 import axios from "axios";
 import { Jumbotron } from "./migration";
-
+import ReactPlayer from 'react-player'
+import myShowVideo from '../../assets/video/个人简介.mp4'
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
@@ -36,11 +37,14 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     marginBottom:'50px',
     marginTop:'20px'
   }
-
+  const xxContainer = {
+    position: 'relative',
+    // paddingBottom: '57.5%' /* 假设视频宽高比为16:9，则设置为 9/16 = 0.5625 */
+  }
   return (
     <Jumbotron  className="m-0">
       <div className="container row">
-        <div className="col-5 d-none d-lg-block align-self-center">
+        <div className="col-5 d-lg-block" style={xxContainer}>
           {showPic && (
             <img
               className="border border-secondary rounded-circle"
@@ -70,6 +74,14 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             </p>
           )} */}
         </div>
+        <div style={{position:"relative",margin:'auto',width:'640px',height:'368px'}}>
+          {/* <ReactPlayer url={myShowVideo } controls style={{margin:'auto',width:'640px',height:'368px'}}/> */}
+          <video className='myVideo'
+          src={require("../../assets/video/个人简介.mp4")}
+          controls>
+          </video>
+        </div>
+
         <div style={pics}>
           <img style={{width:'500px',borderRadius:'20px'}} src={require("../../assets/newImg/图片1.png")}></img>
           <img style={{width:'500px',borderRadius:'20px'}} src={require("../../assets/newImg/图片2.png")}></img>

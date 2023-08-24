@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "Our mission is for athletes to achieve mental wellness and thrive in their sports by providing compassionate support and resources. Mental health is just as important as physical health, and by accepting their well-being and adjusting their mindset, they can overcome mental health challenges and reach their full potential. We aim to create a culture of openness and acceptance around mental health in sports, trying to motivate athletes to prioritize their mental health and achieve their full potential.",
+    " I have been playing Hockey at a competitive level for 11 years now. I originally started out in China when I was 6 and I moved to Toronto at 11 years old. I have been playing at AAA level for almost 4 years now. During the 2021-2022 season, I was drafted into the OHL. While I was injured during my Hockey career, I was thinking of an Athletic healing club that can guide and help me along my Hockey career. My experiences in Hockey inspired me to start this club and help others in need.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
