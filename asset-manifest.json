@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.26cd25c9.css",
-    "main.js": "/static/js/main.2216e4fa.js",
-    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
-    "static/media/个人简介.mp4": "/static/media/个人简介.1eaf10e043bedba93168.mp4",
-    "static/media/图片6.png": "/static/media/图片6.4fcb952b2c1812e66d21.png",
-    "static/media/图片2.png": "/static/media/图片2.b6d28fa955f06109d903.png",
-    "static/media/图片4.png": "/static/media/图片4.5840f53fe60b0c7c93f2.png",
-    "static/media/hashirshoaeb.png": "/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
-    "static/media/图片3.png": "/static/media/图片3.75f2cef10aa22ad40614.png",
-    "static/media/图片1.png": "/static/media/图片1.008a0b336220d0d6253e.png",
-    "static/media/图片5.png": "/static/media/图片5.18c8a507a3c94d81cbd2.png",
-    "static/media/WayneGretzky.png": "/static/media/WayneGretzky.34c5473fdccf9e80d3d5.png",
-    "static/media/xiaoxiang.jpg": "/static/media/xiaoxiang.1ee5bb243faa2d59a2b5.jpg",
-    "index.html": "/index.html",
-    "main.26cd25c9.css.map": "/static/css/main.26cd25c9.css.map",
-    "main.2216e4fa.js.map": "/static/js/main.2216e4fa.js.map",
-    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/AthletesHealingCenter/static/css/main.26cd25c9.css",
+    "main.js": "/AthletesHealingCenter/static/js/main.97a6c8f2.js",
+    "static/js/787.4b24f717.chunk.js": "/AthletesHealingCenter/static/js/787.4b24f717.chunk.js",
+    "static/media/个人简介.mp4": "/AthletesHealingCenter/static/media/个人简介.1eaf10e043bedba93168.mp4",
+    "static/media/图片6.png": "/AthletesHealingCenter/static/media/图片6.4fcb952b2c1812e66d21.png",
+    "static/media/图片2.png": "/AthletesHealingCenter/static/media/图片2.b6d28fa955f06109d903.png",
+    "static/media/图片4.png": "/AthletesHealingCenter/static/media/图片4.5840f53fe60b0c7c93f2.png",
+    "static/media/hashirshoaeb.png": "/AthletesHealingCenter/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "static/media/图片3.png": "/AthletesHealingCenter/static/media/图片3.75f2cef10aa22ad40614.png",
+    "static/media/图片1.png": "/AthletesHealingCenter/static/media/图片1.008a0b336220d0d6253e.png",
+    "static/media/图片5.png": "/AthletesHealingCenter/static/media/图片5.18c8a507a3c94d81cbd2.png",
+    "static/media/WayneGretzky.png": "/AthletesHealingCenter/static/media/WayneGretzky.34c5473fdccf9e80d3d5.png",
+    "static/media/xiaoxiang.jpg": "/AthletesHealingCenter/static/media/xiaoxiang.1ee5bb243faa2d59a2b5.jpg",
+    "index.html": "/AthletesHealingCenter/index.html",
+    "main.26cd25c9.css.map": "/AthletesHealingCenter/static/css/main.26cd25c9.css.map",
+    "main.97a6c8f2.js.map": "/AthletesHealingCenter/static/js/main.97a6c8f2.js.map",
+    "787.4b24f717.chunk.js.map": "/AthletesHealingCenter/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26cd25c9.css",
-    "static/js/main.2216e4fa.js"
+    "static/js/main.97a6c8f2.js"
   ]
 }
