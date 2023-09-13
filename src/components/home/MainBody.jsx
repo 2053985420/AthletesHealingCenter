@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 import backgroundImage from '../../assets/newImg/WayneGretzky.png';
+import { Link } from 'react-scroll';
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -54,14 +55,11 @@ const MainBody = React.forwardRef(
           backgroundSize:'cover'}}>
               {message}
             </div> */}
-            <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
-          >
-            Get Started
-          </a>
+          <Link
+          className="btn btn-outline-light btn-lg "
+              to="aboutme"
+            >
+            Get Started</Link>
         </Container>
       </Jumbotron>
     );
