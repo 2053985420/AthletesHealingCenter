@@ -50,22 +50,22 @@ const Navigation = React.forwardRef((props, ref) => {
             </NavLink>
           } */}
           <NavLink
-              href={process.env.PUBLIC_URL + "/"}
+              href={'/#'+process.env.PUBLIC_URL + "/"}
             >
               Home
             </NavLink>
             <NavLink
-              href={process.env.PUBLIC_URL + "/caseofathletes"}
+              href={'/#'+process.env.PUBLIC_URL + "/caseofathletes"}
             >
               Cases of athletes
             </NavLink>
             <NavLink
-              href={process.env.PUBLIC_URL + "/whyNeeded"}
+              href={'/#'+process.env.PUBLIC_URL + "/whyNeeded"}
             >
               Why it’s needed
             </NavLink>
             <NavLink
-              href={process.env.PUBLIC_URL + "/signupModel"}
+              href={'/#'+process.env.PUBLIC_URL + "/signupModel"}
             >
               Sign up
             </NavLink>
