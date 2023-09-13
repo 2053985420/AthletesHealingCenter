@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AthletesHealingCenter/static/css/main.26cd25c9.css",
-    "main.js": "/AthletesHealingCenter/static/js/main.afe2903d.js",
+    "main.js": "/AthletesHealingCenter/static/js/main.a23772e5.js",
     "static/js/787.4b24f717.chunk.js": "/AthletesHealingCenter/static/js/787.4b24f717.chunk.js",
     "static/media/个人简介.mp4": "/AthletesHealingCenter/static/media/个人简介.1eaf10e043bedba93168.mp4",
     "static/media/图片6.png": "/AthletesHealingCenter/static/media/图片6.4fcb952b2c1812e66d21.png",
@@ -15,11 +15,11 @@
     "static/media/xiaoxiang.jpg": "/AthletesHealingCenter/static/media/xiaoxiang.1ee5bb243faa2d59a2b5.jpg",
     "index.html": "/AthletesHealingCenter/index.html",
     "main.26cd25c9.css.map": "/AthletesHealingCenter/static/css/main.26cd25c9.css.map",
-    "main.afe2903d.js.map": "/AthletesHealingCenter/static/js/main.afe2903d.js.map",
+    "main.a23772e5.js.map": "/AthletesHealingCenter/static/js/main.a23772e5.js.map",
     "787.4b24f717.chunk.js.map": "/AthletesHealingCenter/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26cd25c9.css",
-    "static/js/main.afe2903d.js"
+    "static/js/main.a23772e5.js"
   ]
 }
