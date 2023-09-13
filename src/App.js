@@ -59,16 +59,21 @@ const App = () => {
   return (
     <HashRouter basename='/'>
       {navBar.show && <Navbar ref={titleRef} />}
-      <Routes>
+      {/* dev版 */}
+      {/* <Routes>
         <Route exact path="/" element={<Navigate to={process.env.PUBLIC_URL} replace />} />
         <Route path={process.env.PUBLIC_URL} element={<Home ref={titleRef} />} />
         <Route path={process.env.PUBLIC_URL+"/caseofathletes"} element={<Caseofathlete ref={titleRef} />} />
         <Route path={process.env.PUBLIC_URL+"/whyNeeded"}  element={<WhyNeeded ref={titleRef} />} />
         <Route path={process.env.PUBLIC_URL+"/signupModel"} element={<SignupModel ref={titleRef} />} />
-        {/* <Route path="*" element={<Navigate to={process.env.PUBLIC_URL + "/"} replace />} /> 路径未匹配时重定向到首页 */}
+      </Routes> */}
+      {/* github版 */}
+      <Routes>
+        <Route path="/" element={<Home ref={titleRef} />} />
+        <Route path="/caseofathletes" element={<Caseofathlete ref={titleRef} />} />
+        <Route path="/whyNeeded"  element={<WhyNeeded ref={titleRef} />} />
+        <Route path="/signupModel" element={<SignupModel ref={titleRef} />} />
       </Routes>
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
         {getInTouch.show && (
           <GetInTouch

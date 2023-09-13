@@ -44,12 +44,8 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto">
-          {/* {
-            <NavLink className="nav-item lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
-            </NavLink>
-          } */}
-          <NavLink
+          {/* 本地版 */}
+        {/* <NavLink
               href={'/#'+process.env.PUBLIC_URL + "/"}
             >
               Home
@@ -67,6 +63,19 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               href={'/#'+process.env.PUBLIC_URL + "/signupModel"}
             >
+              Sign up
+            </NavLink> */}
+          {/* github版 */}
+          <NavLink href={'/AthletesHealingCenter/#'}>
+              Home
+            </NavLink>
+            <NavLink href="/AthletesHealingCenter/#/caseofathletes">
+              Cases of athletes
+            </NavLink>
+            <NavLink href="/AthletesHealingCenter/#/whyNeeded">
+              Why it’s needed
+            </NavLink>
+            <NavLink href="/AthletesHealingCenter/#/signupModel">
               Sign up
             </NavLink>
             <NavLink
