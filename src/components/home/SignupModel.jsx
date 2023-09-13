@@ -17,7 +17,7 @@ const SignupModel = React.forwardRef(
         href={'https://docs.google.com/forms/d/e/1FAIpQLSdc2mkZa2oKowfztf63YugqrZ5KQCdEDQvJb8yZw6FKNBPB3A/viewform?usp=sf_link'}>
             https://docs.google.com/forms/d/e/1FAIpQLSdc2mkZa2oKowfztf63YugqrZ5KQCdEDQvJb8yZw6FKNBPB3A/viewform?usp=sf_link
             </a>
-            <div><iframe src={'https://docs.google.com/forms/d/e/1FAIpQLSdc2mkZa2oKowfztf63YugqrZ5KQCdEDQvJb8yZw6FKNBPB3A/viewform?usp=sf_link'} title="Preview" width="100%" height="2115px" />
+            <div><iframe src={'https://docs.google.com/forms/d/e/1FAIpQLSdc2mkZa2oKowfztf63YugqrZ5KQCdEDQvJb8yZw6FKNBPB3A/viewform?usp=sf_link'} title="Preview" width="100%" height="480px" />
       </div>
     <h2 className="display-4 pb-3"
         style={{fontSize:'25px',fontWeight:'700',marginTop:'30px'}}>SIGN UP FOR OUR WEEKLY ZOOM SESSIONS:</h2>

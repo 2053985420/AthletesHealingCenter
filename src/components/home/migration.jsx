@@ -18,7 +18,7 @@ export const NavLink = (props) => {
       href={props.href}
       target={props.target}
       rel={props.rel}
-      style={{padding:'0 1.5rem'}}
+      style={{padding:'0 2rem'}}
     >
       <span className={`nav-item lead ${props.className}`}>
         {props.children}
